@@ -1,0 +1,4 @@
+cat: cat is a command that concatenates a file and prints the contents to the shell
+
+less: is a file pager command that lets you see the contents of a file. less is a evolution of the file pager more unlike more less allows you to scroll through the file backwards and fowards
+
