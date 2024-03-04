@@ -1,3 +1,5 @@
+//all assignments are also on my github at https://github.com/msdosboss/CIS279L
+
 ls: ls is a command that list the contents of the current dir
 
 cd: cd is a command that takes a directory as a arg then puts your shell into the arg you provided
