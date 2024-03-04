@@ -1,4 +1,29 @@
 cat: cat is a command that concatenates a file and prints the contents to the shell
 
-less: is a file pager command that lets you see the contents of a file. less is a evolution of the file pager more unlike more less allows you to scroll through the file backwards and fowards
+less: less is a file pager command that lets you see the contents of a file. less is a evolution of the file pager more unlike more less allows you to scroll through the file backwards and fowards
 
+split: split is a command that will split a file into x different file depending on how many chars are in that file and what you set as the split limit
+
+nl: nl is a command that will print a file to the stdout but will add line numbers to the output
+
+head: head is a command outputs the first part of a file. by default it is the first 10 lines
+
+tail: tail is a command outputs the last part of a file. by default it is the last 10 lines
+
+paste: paste is a command that merges lines together and prints them to the stdout
+
+join: join is a command that will take 2 files as input combine those file by line number then print it out to the stdout
+
+cut: cut is a command that extracts sections from each line of input data and prints them to the standard output. It allows users to specify either specific columns or specific character ranges to extract from each line of input.
+
+sort: sort is a command that sorts the lines of input text or files alphabetically or numerically and outputs the result to the standard output. It arranges the lines in ascending or descending order based on the specified criteria.
+
+uniq: uniq is a command that filters adjacent matching lines from input text or files and outputs only one instance of each unique line to the standard output. It is often used in conjunction with sort to remove duplicate lines.
+
+od: od is a command that outputs the contents of files in various formats, including octal, hexadecimal, and ASCII. It is primarily used for viewing the contents of non-text files, such as binary files, in a human-readable format.
+
+tr: tr is a command that translates or deletes characters from input data and outputs the result to the standard output. It can be used to replace specific characters with other characters or to delete certain characters altogether.
+
+sed: sed is a stream editor command that is used to perform text transformations on input data and outputs the result to the standard output. It is commonly used for tasks such as text substitution, deletion, and insertion in files or piped input.
+
+wc: wc is a command that counts the number of lines, words, and characters in input text or files and prints the counts to the standard output. It provides options to display counts for lines, words, and characters individually or in combination.
