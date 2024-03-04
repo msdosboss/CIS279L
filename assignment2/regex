@@ -1,0 +1,5 @@
+regex is a way of filtering strings based on certian critera. This can be extremely useful when wanting to select/find certian files. one example where I have used regex
+was in a file sorting program. There was a need for all files to follow a specific standard that being catagory a series of uppercase or lowercase letter no more than 5 chars,
+followed by an index number of a length no longer than 5 chars, next there is an optional subindex that would be prefaced with a . it will also be no longer than 5 chars, Finally
+the last part of the file would be the file extstetion prefaced with a . as well. The regex string looked like this "[a-zA-Z]{1,10}[0-9]{1,5}(.[0-9]{1,5})?.[a-zA-Z0-9]+" from project
+https://github.com/ElliotFoley/Zort

@@ -1,0 +1,7 @@
+Starndard text Streams are a very powerful tool that can be used to allow mulitple command line programs to interact with each other. It can get very complicated in the implamentation of it.
+Currently most of what I use is > or >>. > will overwrite a file with the contents of the stdout whereas >> will append a file with the contents of stdout. 2> will let you redirect the contents
+of the stderr. The | opertor works similar to the >> but instead of writing the stdout to a file it will use the stdout of the first program as the stdin to the next (first program | second program)
+vs (program >> file)
+
+each file permisions are repersent by 9 bits they are seperated into 3 sections. group permisions, owner permisions, and everyone else. You can edit these permisions with commands such as chown and chgrp.
+you can run commands and access files with sudo permission meaning that you would have access to every file and application on the machine.
