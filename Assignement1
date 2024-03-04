@@ -1,0 +1,38 @@
+ls: ls is a command that list the contents of the current dir
+
+cd: cd is a command that takes a directory as a arg then puts your shell into the arg you provided
+
+whoami: whoami is a command that prints out the current user of the shell
+
+hostname: hostname is a command that prints the name of the machine that is being used
+
+uname: uname is a command that prints information about the system. With no args uname will print the name of the kernal
+
+.bashrc: bashrc is a configuration file for the shell that gets run when you launch the terminal from your desktop (non-interactive, command-line shell sessions)
+
+.bash_profile: bash_profile is a configuration file for the shell that gets run for a login shell session. This applys when you login to your system through the shell.
+
+fileGlobbing: There are 3 different chars you can use for file globbing, they are ?,*,[]. ? is a wildcard char for a single char meaning that if you have 2 files one being (file1) and the other being (file2)
+if you were to run a command such as rm file? it would delete both of them. The * is a wildcard char, but for multiple chars instead so if you were to have 3 files (file1), (file2), (fileorca) rm file* would
+delete each of them. [] can be used to refer to specific chars or ranges of them meaning that if you had 4 files (file1), (file2), (file3), (file4) and ran the command rm file[1-3] you would delete file1, file2,
+file3.
+
+touch: touch is a command that will take an arg and make a file with the name of that arg
+
+source: The source command reads and executes commands from a file in the current shell environment. I know this is used for python venv to help with lib instalation
+
+cp: cp is a command that typically takes 2 args the first one being the src of the file you want to copy the second one be the destination and name of the copy of the file
+
+mv: mv is a command that typically takes 2 args the first one being the src of the file you want to mv the second being the destination and name of the mv version of the file
+
+rm: rm is a command that typically takes on arg that being the location/file you want to delete
+
+mkdir: mkdir is a command that typically takes one arg that being the name of a dir that you want to create
+
+rmdir: rmdir is a command that typically takes one arg that being the nmame of a dir that you want to remove
+
+find: is a command that will find a file in a given linux dir
+
+whereis: is a command that locates the binary, source, and man page files for a command 
+
+which: shows the full path of a shell command
