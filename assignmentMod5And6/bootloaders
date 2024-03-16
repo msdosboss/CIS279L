@@ -1,0 +1,13 @@
+GRUB legacy/GRUB/GRUB2/LILO: GRUB/GRUB Legacy and GRUB2 are the most commonly used bootloaders for Linux. The LILO us to be the standard but has fallen out of use and is mostly used on legacy systems. 
+
+grub-install: grub-install is a command that can be used to reinstall GRUB Legacy. The command mostly maps out information about your system for the grub.conf file
+
+grub-mkconfig: grub-mkconfig is a commnad the gathers information from the /boot directory and /etc/default/grub. It then takes that information and outputs a conf file at the directory you gave it
+
+/etc/grub.conf: This file is a symolic link connected to the real boot file at /boot/grub/grub.conf. This is put there for easier access.
+
+update-grub/grub2-mkconfig: update-grub is a command used to automatically generate grub.cfg files for GRUB 2. This is done because GRUB 2 expects its conf files to be generate not manually created.
+grub2-mkconfig is the same thing just for Fedora-based systems
+
+grub-set-default: grub-set-default is a command used to select the default boot img for GRUB 2
+

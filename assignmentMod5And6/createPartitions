@@ -1,0 +1,16 @@
+fdisk: fdisk is a partion tool that can be used to view and edit the partition table. fdisk can be used in 2 different modes interactive and non-interactive. You can active the non-interactive mode by adding the -l
+option. -cu will activate the interactive mode
+
+partprobe/kpartx: these are commands that are used to fix the ioctl() function. It makes it so it can read the new partiton table into memory
+
+sfdisk: sfdisk is a program like fdisk, but it is also scripting making it possible to automate partitioning. it allows you to back up your partition table before editing it in case you mess something up
+
+gdisk: gdisk is a partion tool used to view and edit partition tables for GPT. it functions very similarly to fdisk
+
+parted/gparted: parted is a GNU tool that will allow you to view, create, and delete partitions. gparted is the graphical version of this program
+
+LVM: LVM is a disk management technology used in Linux systems that allows for dynamic allocation and management of disk storage.
+
+mkfs: mkfs is a command that can be used to make a vfat type filesystem. This is for compatible with other OSs such as Windows
+
+swap space: swap space is the process of uses disk space as low prio RAM.

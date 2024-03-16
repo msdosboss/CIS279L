@@ -1,0 +1,24 @@
+default runlevel: This is the default runlevel a process will have when it is boot up
+
+runlevel: runlevels define the purpose of a process 
+
+who -r: who -r is a command that will display the current runlevel of your system
+
+init/telinit: init or telinit are command that can be used to change the runlevel to the optition that was passed to it in its args. telinit also allows for a time delay on this command
+
+systemctl: systemctl is a command that is used to control your systems services. the isolate arg can be used to change the target level of the system. 
+
+halt, poweroff, and shutdown: The shutdown command can be used to shutdown the system and display a message as to why the shutdown is happening. halt and poweroff are both args that can be
+provided to the shutdown command if halt is used it will "halt the machine" sourced from the man page. and if the poweroff arg is used it will "Power-off the machine (the defualt)" sourced from the man page. 
+
+startx: startx is a command that can be used to start up the X windows software. This can allow for the system to be in a lower runlevel/target that 5.
+
+wall: The wall command is a way of sending a message to users system wide
+
+service: service is a command that can be used to manage which services will be provided to the user.
+
+/etc/init: This directory is used for storing init scripts for the boot process
+
+target: Targets are similar to boot levels but instead of be defined as numbers they are defined with word such as graphical.target. 
+
+acpi/acpid: acpid communicate information about the power interface to user-space programs. you can use the acpi command to see information that it has gathered

@@ -1,0 +1,26 @@
+partitions: Partitioning is the process of breaking up a single drive into multiple secetion each designed for their own use.
+
+HDD terminology: A hard drive contains multiple platters. These platters are used to store data in a magnetic form. Each platter has a head assoiated with it, this head is used to 
+read and write on to the hard drive. each of the plattters are connected to spindle and are spun at the same speed. The boom is used to move the heads.
+
+fdisk: fdisk is a partioning tool
+
+limitations of the technology: When using MBR the partion table is limit to the 512 bytes meaning that generally you can only have 4 partions. However modern hardware allows for
+extended partions. This allows you to have up to 59 "logicaly" partions on a drive.
+
+MBR vs GPT: GPT by contrast can support disks of at most 9Zb. It is also able to support up to 128 partitions. GPT uses a unique 128 bit number used to identify information about the 
+system 
+
+gdisk: gdisk is a partioning tool similar to fdisk, but for GPT
+
+LVM: LVM is a disk management technology used in Linux systems that allows for dynamic allocation and management of disk storage.
+
+common filesystem formats: Filesystem formats are different ways of organizing files on a partition. A few examples of which are ext2, ext3, ext4, iso.
+
+fsck: fsck is a filesystem recovery program.
+
+FS components: FS components include the data structures and algorithms used by an operating system to organize and manage files and directories on storage devices. These 
+components typically include metadata such as file allocation tables, inode tables, directory structures, and access control mechanisms to facilitate efficient data storage, retrieval, and manipulation.
+
+physical vs virtual FSes: physical file systems directly interface with the hardware to orginize the data. Virtual file systems, on the other hand, provide an abstraction layer that allows
+the operating system to access and manage different types of file systems uniformly.
