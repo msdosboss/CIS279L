@@ -1,0 +1,40 @@
+mount: mount is a linux command used to mount partions on to the root filesystem. it takes the source of a partion and the location in the filesystem it is to be mounted
+
+/etc/fstab: /etc/fstab is a file that the OS uses to decided which drives to mount and when. 
+
+umount: umount is a command used to unmount filesystems safely to ensure no data lose.
+
+lsof: lsof lists each open file on the machine this is used to know which files are open when trying to unmount a filesystem. it is important to note that you will need to filter
+the output with a program like grep
+
+fuser: fuser is a command similar to lsof, but it provides more information about the file including if the file is open for writing. This is useful in order to prevent data lose.
+
+device identifier: The device identifier is a UUID to identify a device. This is how the /etc/fstab file knows which drives to mount
+
+device name: The device name is the name of the device within the /dev directory. This can also be used to mount a drive in the /etc/fstab folder
+
+labels: A drive can also be identified by a label that was set with the command e2label. This can also be used to mount a drive in the /etc/fstab folder
+
+mount points: mount points are where in the root file system the drive will be mounted. meaning that if you mount a drive at /media/harddrive that is where you would access your
+files on that drive
+
+filesystem (type): This is the format of the filesystem ie ext4, ext3, etc
+
+mount options: this secetion of /etc/fstab is used to select options that would normally be given to the mount command such as making a filesystem read only
+
+dump: The dump option in the /etc/fstab file is used to declare which filesystems should be backed up by the dump command
+
+fsck field: the fsck field option establishes how the filesystem will be treated by the fsck command
+
+systemd mount units: a systemd mount unit is a file used to mount filesystems with systemd
+
+loop option: the loop option is used to mount special filesystems that are stored within a file such as .iso or .img
+
+df: The df command is used to view information about mounted filesystems
+
+blkid: blkid is a command used to get the UUID, device name, and device label these can all be used to then mount the disk
+
+swap space: Swap space drive space that is reserved for low prioty RAM. This can be used if the system is at full RAM use and needs some more. 
+
+mkswap: The mkswap command in Linux is used to initialize a swap space on a block device or a file. It formats
+the specified device or file as a swap space, enabling the Linux kernel to use it as virtual memory for storing inactive memory pages when physical RAM is full.

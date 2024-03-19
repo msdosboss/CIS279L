@@ -1,0 +1,8 @@
+df: The df command is used to view information about mounted filesystems. when using it for file integrity it is important to note it ability to display free data block space and
+free inodes. the -h option can be used to display the amount of free data blocks in a human readable format (bytes)
+
+du: The du command can be used to list each directory and how much storage that directory is using. This can be very helpful when you are trying to clear a drive that is running out
+of space
+
+tune2fs: The tune2fs command in Linux is used to adjust various parameters and settings of an ext2, ext3, or ext4 filesystem. It allows administrators to change attributes such as the
+filesystem label, maximum mount count, interval between filesystem checks, and more, providing flexibility in filesystem management and optimization.

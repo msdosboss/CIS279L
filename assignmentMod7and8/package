@@ -1,0 +1,22 @@
+APT: APT is the debain based package manager.
+
+RPM: RPM is the package manager that was created and is used by red hat Linux. there are 2 different types of rpm files .src.rpm and .rpm. .src.rpm files are the actual source code of the program that is being
+compiled into binary. The .rpm file are the compiled version of the .src.rpm files. 
+
+querying/installing/erasing/updating: querying is the process of displaying information about packages. This can be used to search for packages or to gain more information about packages you already have. installing is
+the process of taking a package and then installing on to your machine. erasing is the process of removing a package from your machine. updating is the process of updating your packages.
+
+rpm2cpio: the rpm2cpio command takes a rpm file and output a cpio archive file. This cpio file has the contents of the rpm file on it. this can be useful to understand what makes up a package.
+
+yum package manager: the yum package manager is a package manager designed to be easier to use. It is cabable of locating and downloading packages of the internet and resolves dependencies
+automatically.
+
+DNF: DNF is the new version of the yum command. DNF was created to "solve package management dependency issues"
+
+dpkg/dpkg-configure: dpkg is a tool used to manage .deb packages. it is cabable of installing, removing, and querying packages
+
+apt-cache: apt-cache is a command that can be used to search a package repo
+
+verifying files: package managers ensure the integrity of its packages through using checksum hashes such as md5sum, sha256sum, sha512sum.
+
+Zypper/zypp/libzypp: Zypper is the SUSE package manager that is powerd by the ZYpp/libzpp package management tools.

@@ -1,0 +1,10 @@
+umount: umount is a command used to unmount filesystems safely to ensure no data lose.
+
+fsck: fsck command is used to check a filesystem for consistency issues and to address those issues when found. There is also the e2fsck command which is used to check
+ext2, ext3, and ext4 file systems
+
+lost+found: the lost+found is a directory that the fsck program puts "lost" files. A file becomes lost when it loses its name and can no longer be placed in a directory.
+
+XFS: XFS is a featureful and trusted filesystem that is widely used.
+
+frag: the frag command will report back the state of the fragmentation of a filesystem.

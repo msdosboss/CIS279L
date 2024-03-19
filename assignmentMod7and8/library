@@ -1,0 +1,11 @@
+.so: .so is a file exstension for shared objects/shared libraries. this allows for multiple programs to use the same sections of code with out have to store it in more than one place.
+
+LD_LIBRARY_PATH: LD_LIBRARY_PATH is an environment variable that can be used to point to a directory that you want programs to look for shared libraries in. This is useful because it does
+not require sudo access to change this environment variable
+
+/etc/ld.so.conf: the /etc/ld.so.conf file is used to determine which directorys are going to be looked in by the ldconfig command for shared libraries. The file it self only includes 1
+line which is "include /etc/ld.so.conf.d/*.conf" this allows for each directory to be decalered in different files.
+
+ldconfig: the ldconfig command creates links and caches the shared libaries that are required for programs
+
+ldd: the ldd command will let you view the shared libreries that are being used by a program.
